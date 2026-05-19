@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard - Smart Queue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar">
+        <div class="logo">Smart Queue</div>
+        <a href="user-dashboard.html" class="active">Dashboard</a>
+        <a href="book-token.html">Book Token</a>
+        <a href="token-status.html">Token Status</a>
+        <a href="index.html">Logout</a>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="topbar">
+            <h2>User Dashboard</h2>
+            <p>Welcome, Madhavan</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>My Token</h3>
+                <h1>18</h1>
+                <p>College Office</p>
+            </div>
+
+            <div class="card">
+                <h3>Current Token</h3>
+                <h1>12</h1>
+                <p>Currently serving</p>
+            </div>
+
+            <div class="card">
+                <h3>People Ahead</h3>
+                <h1>5</h1>
+                <p>Please wait</p>
+            </div>
+
+            <div class="card">
+                <h3>Estimated Time</h3>
+                <h1>15m</h1>
+                <p>Approximate waiting time</p>
+            </div>
+        </div>
+
+        <div class="status-box">
+            <h2>Current Queue Status</h2>
+
+            <div class="status-grid">
+                <div class="status-item">
+                    <span>Service Name</span>
+                    <strong>College Office</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Token Status</span>
+                    <strong><span class="badge badge-waiting">Waiting</span></strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Crowd Level</span>
+                    <strong>Medium</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Average Service Time</span>
+                    <strong>3 minutes</strong>
+                </div>
+            </div>
+
+            <div class="progress-area">
+                <h3>Queue Progress</h3>
+
+                <div class="progress-line">
+                    <div class="progress-token active">12<br>Serving</div>
+                    <div class="progress-token">13</div>
+                    <div class="progress-token">14</div>
+                    <div class="progress-token">15</div>
+                    <div class="progress-token">16</div>
+                    <div class="progress-token">17</div>
+                    <div class="progress-token you">18<br>You</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-box">
+            <h2>My Recent Bookings</h2>
+
+            <table>
+                <tr>
+                    <th>Token No</th>
+                    <th>Service</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>18</td>
+                    <td>College Office</td>
+                    <td>19-05-2026</td>
+                    <td>10:30 AM</td>
+                    <td><span class="badge badge-waiting">Waiting</span></td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>Library</td>
+                    <td>18-05-2026</td>
+                    <td>02:00 PM</td>
+                    <td><span class="badge badge-completed">Completed</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>

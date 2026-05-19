@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Token - Smart Queue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar">
+        <div class="logo">Smart Queue</div>
+        <a href="user-dashboard.html">Dashboard</a>
+        <a href="book-token.html" class="active">Book Token</a>
+        <a href="token-status.html">Token Status</a>
+        <a href="index.html">Logout</a>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="topbar">
+            <h2>Book Your Token</h2>
+            <p>User Panel</p>
+        </div>
+
+        <div class="status-box booking-container">
+            <h2>Token Booking Form</h2>
+
+            <form action="token-status.html">
+                <div class="input-group">
+                    <label>Select Service</label>
+                    <select required>
+                        <option value="">Choose Service</option>
+                        <option>College Office</option>
+                        <option>Lab Help Desk</option>
+                        <option>Canteen</option>
+                        <option>Clinic</option>
+                        <option>Library</option>
+                        <option>Fee Payment</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Select Date</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Select Time Slot</label>
+                    <select required>
+                        <option value="">Choose Time Slot</option>
+                        <option>09:00 AM - 09:30 AM</option>
+                        <option>09:30 AM - 10:00 AM</option>
+                        <option>10:00 AM - 10:30 AM</option>
+                        <option>10:30 AM - 11:00 AM</option>
+                        <option>11:00 AM - 11:30 AM</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Purpose</label>
+                    <textarea rows="4" placeholder="Enter your purpose"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Book Token</button>
+            </form>
+
+            <div class="success-box">
+                After booking, your token number and waiting status will be displayed.
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>

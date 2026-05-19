@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Token Status - Smart Queue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar">
+        <div class="logo">Smart Queue</div>
+        <a href="user-dashboard.html">Dashboard</a>
+        <a href="book-token.html">Book Token</a>
+        <a href="token-status.html" class="active">Token Status</a>
+        <a href="index.html">Logout</a>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="topbar">
+            <h2>Token Status</h2>
+            <p>Track your queue</p>
+        </div>
+
+        <div class="status-box">
+            <h2>Your Token Details</h2>
+
+            <div class="status-grid">
+                <div class="status-item">
+                    <span>Your Token Number</span>
+                    <strong>18</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Service</span>
+                    <strong>College Office</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Current Serving Token</span>
+                    <strong>12</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>People Ahead</span>
+                    <strong>5</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Estimated Waiting Time</span>
+                    <strong>15 minutes</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Status</span>
+                    <strong><span class="badge badge-waiting">Waiting</span></strong>
+                </div>
+            </div>
+
+            <div class="progress-area">
+                <h3>Queue Progress</h3>
+
+                <div class="progress-line">
+                    <div class="progress-token active">12<br>Serving</div>
+                    <div class="progress-token">13</div>
+                    <div class="progress-token">14</div>
+                    <div class="progress-token">15</div>
+                    <div class="progress-token">16</div>
+                    <div class="progress-token">17</div>
+                    <div class="progress-token you">18<br>You</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-box">
+            <h2>Status Meaning</h2>
+
+            <div class="status-grid">
+                <div class="status-item">
+                    <span class="badge badge-waiting">Waiting</span>
+                    <p>Your token is in queue.</p>
+                </div>
+
+                <div class="status-item">
+                    <span class="badge badge-called">Called</span>
+                    <p>Your turn has arrived.</p>
+                </div>
+
+                <div class="status-item">
+                    <span class="badge badge-completed">Completed</span>
+                    <p>Your service is completed.</p>
+                </div>
+
+                <div class="status-item">
+                    <span class="badge badge-cancelled">Cancelled</span>
+                    <p>Your token has been cancelled.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
