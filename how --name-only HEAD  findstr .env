@@ -1,0 +1,16 @@
+[33m00590a3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add MongoDB student management API for assignment 4
+Smart_Queue_Assignment_1.pdf
+Smart_Queue_Assignment_3.pdf
+student-management-api/images of postman and terminal/postman delete api.png
+student-management-api/images of postman and terminal/postman get api.png
+student-management-api/images of postman and terminal/postman opr output terminal.png
+student-management-api/images of postman and terminal/postman post api1.png
+student-management-api/images of postman and terminal/postman post api2.png
+student-management-api/images of postman and terminal/postman put api.png
+student-management-mongodb/.gitignore
+student-management-mongodb/config/db.js
+student-management-mongodb/models/Student.js
+student-management-mongodb/package-lock.json
+student-management-mongodb/package.json
+student-management-mongodb/routes/studentRoutes.js
+student-management-mongodb/server.js
